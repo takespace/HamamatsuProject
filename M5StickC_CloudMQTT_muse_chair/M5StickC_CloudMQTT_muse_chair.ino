@@ -131,7 +131,7 @@ void loop() {
 void mqttCallback(char* topic, byte* payload, unsigned int length)
 {
   String yd = topic;
-
+  payload[length] = '\0';
   // Add conditions
   if (yd.equals(alphaTopic)){
     printSomewhere("a:");
