@@ -221,78 +221,78 @@ int crntPtnNum;
 //-------------------------------
 const PATTERN ptnA[] = 
 {// *10msec, message    <Relax>
-    { 0,   "moter;fssss" },
-    { 50,  "moter;ffsss" },
-    { 100, "moter;fffss" },  
-    { 150, "moter;ffffs" }, 
-    { 200, "moter;rffff" }, 
-    { 250, "moter;rrfff" }, 
-    { 300, "moter;rrrff" }, 
-    { 350, "moter;rrrrf" }, 
-    { 400, "moter;rrrrr" },
-    { 450, "moter;srrrr" },
-    { 500, "moter;ssrrr" },
-    { 550, "moter;sssrr" },
-    { 600, "moter;ssssr" },
-    { 650, "moter;sssss" }
+    { 0,   "motor:fssss" },
+    { 50,  "motor:ffsss" },
+    { 100, "motor:fffss" },  
+    { 150, "motor:ffffs" }, 
+    { 200, "motor:rffff" }, 
+    { 250, "motor:rrfff" }, 
+    { 300, "motor:rrrff" }, 
+    { 350, "motor:rrrrf" }, 
+    { 400, "motor:rrrrr" },
+    { 450, "motor:srrrr" },
+    { 500, "motor:ssrrr" },
+    { 550, "motor:sssrr" },
+    { 600, "motor:ssssr" },
+    { 650, "motor:sssss" }
 };
 //-------------------------------
 const PATTERN ptnB[] = 
 {// *10msec, message    <Focus>
-    { 0,    "moter;fssss" },  
-    { 300,  "moter;rssss" }, 
-    { 500,  "moter;rfsss" }, 
-    { 700,  "moter;sfsss" }, 
-    { 800,  "moter;srsss" },
-    { 1000, "moter;srfss" },
-    { 1200, "moter;ssfss" },
-    { 1300, "moter;ssrss" },
-    { 1500, "moter;ssrfs" },
-    { 1700, "moter;sssfs" },
-    { 1800, "moter;sssrs" },
-    { 2000, "moter;sssrf" },
-    { 2200, "moter;ssssf" },
-    { 2300, "moter;ssssr" },
-    { 2700, "moter;sssss" }
+    { 0,    "motor:fssss" },  
+    { 300,  "motor:rssss" }, 
+    { 500,  "motor:rfsss" }, 
+    { 700,  "motor:sfsss" }, 
+    { 800,  "motor:srsss" },
+    { 1000, "motor:srfss" },
+    { 1200, "motor:ssfss" },
+    { 1300, "motor:ssrss" },
+    { 1500, "motor:ssrfs" },
+    { 1700, "motor:sssfs" },
+    { 1800, "motor:sssrs" },
+    { 2000, "motor:sssrf" },
+    { 2200, "motor:ssssf" },
+    { 2300, "motor:ssssr" },
+    { 2700, "motor:sssss" }
 };
 //-------------------------------
 const PATTERN ptnC[] = 
 {// *10msec, message    <Meditation>
-    { 0,    "moter;fsfsf" },
-    { 50,   "moter;rfrfr" },
-    { 100,  "moter;rrrrr" },
-    { 150,  "moter;srsrs" },
-    { 200,  "moter;fsfsf" },
-    { 250,  "moter;rfrsr" },
-    { 300,  "moter;rrrsr" },
-    { 350,  "moter;sssss" },
-    { 400,  "moter;fsfsf" },
-    { 450,  "moter;rfrsr" },
-    { 500,  "moter;rrrsr" },
-    { 550,  "moter;sssss" },
+    { 0,    "motor:fsfsf" },
+    { 50,   "motor:rfrfr" },
+    { 100,  "motor:rrrrr" },
+    { 150,  "motor:srsrs" },
+    { 200,  "motor:fsfsf" },
+    { 250,  "motor:rfrsr" },
+    { 300,  "motor:rrrsr" },
+    { 350,  "motor:sssss" },
+    { 400,  "motor:fsfsf" },
+    { 450,  "motor:rfrsr" },
+    { 500,  "motor:rrrsr" },
+    { 550,  "motor:sssss" },
 };
 //-------------------------------
 const PATTERN ptnD[] = 
 {// *10msec, message    <Deep Sleep>
-    { 0,    "moter;fffff" },
-    { 100,  "moter;rrrrr" },
-    { 200,  "moter;fffff" },
-    { 300,  "moter;rrrrr" },
-    { 400,  "moter;fffff" },
-    { 500,  "moter;rrrrr" },
-    { 600,  "moter;sssss" }
+    { 0,    "motor:fffff" },
+    { 100,  "motor:rrrrr" },
+    { 200,  "motor:fffff" },
+    { 300,  "motor:rrrrr" },
+    { 400,  "motor:fffff" },
+    { 500,  "motor:rrrrr" },
+    { 600,  "motor:sssss" }
 };
 //-------------------------------
 const PATTERN ptnE[] = 
 {// *10msec, message    <Sleep>
-    { 0,    "moter;fffff" },
-    { 100,  "moter;fffff" },
-    { 200,  "moter;fffff" },
-    { 300,  "moter;rrrrr" },    
-    { 400,  "moter;rrrrr" },
-    { 500,  "moter;rrrrr" },
-    { 600,  "moter;rrrrr" },    
-    { 700,  "moter;sssss" }
+    { 0,    "motor:fffff" },
+    { 100,  "motor:fffff" },
+    { 200,  "motor:fffff" },
+    { 300,  "motor:rrrrr" },    
+    { 400,  "motor:rrrrr" },
+    { 500,  "motor:rrrrr" },
+    { 600,  "motor:rrrrr" },    
+    { 700,  "motor:sssss" }
 };
 //-------------------------------
 const PATTERN* ptnPtr[MAX_PATTERN_NUM] =
